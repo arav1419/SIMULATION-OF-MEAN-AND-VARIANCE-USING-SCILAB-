@@ -1,16 +1,15 @@
 # SIMULATION-OF-MEAN-AND-VARIANCE-USING-SCILAB-
-
-# AIM:
+__AIM:__
 
 To write a program for mean, variance and cross correlation in SCILAB and verify the output. 
 
-# EQUIPMENTS NEEDED:
+__EQUIPMENTS NEEDED:__
 
 .Computer with i3 Processor 
 
 .SCI LAB 
 
-# ALGORITHM:
+__ALGORITHM:__
 
 1. Define the Function: Specify the function you want to simulate. For example, 
 f(x)=sin⁡(x)f(x)=sin(x) or any other function. 
@@ -21,7 +20,7 @@ these sample points within the desired range.
 mean and variance of the computed function values. 
 5. Display Results: Output the computed mean variance and Cross Correlation 
 
-# PROCEDURE:
+__PROCEDURE:__ 
 
 1.Refer Algorithms and write code for the experiment. 
 
@@ -35,7 +34,7 @@ mean and variance of the computed function values.
   
 6.Verify the generated results
 
-# PROGRAM:
+__PROGRAM:__
 ```
 clear;
  clc; 
@@ -82,16 +81,9 @@ n2=max(size(x))-1;
 r=corr(x,y,n1); 
 plot2d3('gnn',r);
 ```
+__OUTPUT GRAPH:__
 
-# OUTPUT GRAPH
-![WhatsApp Image 2025-11-14 at 13 44 49_f6727bc9](https://github.com/user-attachments/assets/92c4d174-d39c-4547-85ce-444a1cb3227a)
+<img width="1917" height="1076" alt="image" src="https://github.com/user-attachments/assets/82ac82d7-4470-42f5-960d-f99e9f6b8222" />
 
-![WhatsApp Image 2025-11-26 at 22 46 37_65c96d87](https://github.com/user-attachments/assets/e576442f-bc51-4bde-9c5b-09b45d2d81a1)
-
-![WhatsApp Image 2025-11-26 at 22 46 43_c57b22d8](https://github.com/user-attachments/assets/f28f536b-ec3f-442b-a742-fda8af6806cd)
-
-
-
-
-# RESULT:
-Thus the mean and variance using scilab code with the given reference sequence is verified and proved successfully.
+__RESULT:__
+Hence, mean and variance are simulated in Scilab using the program mentioned above.
